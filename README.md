@@ -14,7 +14,7 @@ Enable wireless data communication between ESP32 and a local prediction system.
 Also Enable local storage of raw wingbeat audio and sensor data using an SD card module to support offline analysis, backup, and future model retraining in areas with limited or no internet connectivity.
 
 # System Design (IoT + Hybrid ML)
-Hardware:
+# Hardware:
 ESP32 DevKit v1 WROOM
 
 Captures audio via I2S interface from INMP441 MEMS microphone.
