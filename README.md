@@ -19,7 +19,7 @@ ESP32 DevKit v1 WROOM
 
 Captures audio via I2S interface from INMP441 MEMS microphone.
 
-Sends data to local system via Wi-Fi using TCP socket.
+Sends data to local system via Wi-Fi using UDP socket.
 
 Controls OLED display for real-time alerts and status.
 
