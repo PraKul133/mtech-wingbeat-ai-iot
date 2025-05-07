@@ -1,4 +1,4 @@
-# mtech-wingbeat-ai-iot
+# MTech Final Project
 # Overview : 
 This project presents an IoT-based intelligent system for classifying mosquito species based on their wingbeat acoustic signatures. Leveraging Deep Learning (Xception) for feature extraction and XGBoost for classification, this system aims to support vector-based disease monitoring and control efforts with real-time deployment on edge devices like ESP32 DevKit v1 WROOM.
 
@@ -29,9 +29,27 @@ INMP441 Microphone: High-quality, low-noise MEMS microphone.
 
 DHT22 Sensor (optional): Measures temperature and humidity to support ecological research.
 
-Software:
+# Software:
 Arduino C++ code for data acquisition, display control, and Wi-Fi transmission.
 
 Python backend for receiving audio data and performing inference using the Xception + XGBoost model (.h5 and .pkl files respectively).
 
 Outputs: Species label, confidence score, and performance metrics (accuracy, confusion matrix).
+
+# Results
+Achieved 95.41% classification accuracy across multiple mosquito species.
+
+Successfully detected Aedes, Anopheles, and Culex species using wingbeat acoustics.
+
+# Future Work
+On-device inference using TensorFlow Lite on ESP32.
+
+Deployment of Federated Learning models for privacy-preserving species classification.
+
+
+# Author 
+Pranav Kulkarni
+
+MTech [Computer Network Engineering]
+
+Ramaiah Institute of Technology, Bengaluru 
